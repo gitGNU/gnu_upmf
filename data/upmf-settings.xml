@@ -23,11 +23,11 @@ along with Upmf.  If not, see <http://www.gnu.org/licenses/>.
 <settings>
   <!-- Set this to true when you verified that all settings suit your needs.
   This setting exists so that Upmf can be sure everything is set right. -->
-  <enabled>true</enabled>
+  <enabled>false</enabled>
 
   <!-- Sets the directories where to look for package xml files, in order -->
   <packagefiles>
-    <dir>/home/al/usr/share/upmf/packages</dir>
+    <dir>/usr/share/upmf/packages</dir>
   </packagefiles>
   <!-- Sets the directory where to install packages -->
   <packagedir>/pkg</packagedir>

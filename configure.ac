@@ -19,7 +19,7 @@
 # along with this program.  If not, see `http://www.gnu.org/licenses/'.
 
 AC_PREREQ([2.69])
-AC_INIT([upmf], [0.1], [papsch.al@googlemail.com], [upmf], [http://localhost])
+AC_INIT([upmf], [0.1], [papsch.al@googlemail.com], [upmf], [http://nongnu.org/upmf/])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([config])
 AC_CONFIG_HEADERS([config.h])

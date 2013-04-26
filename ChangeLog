@@ -1,0 +1,60 @@
+2012-07-23  Aljosha Papsch  <papsch.al@googlemail.com>
+
+	* doc/upmf.texi: Added warning to not remove tags from config file
+	* src/command.c (upmf_command_new): Removed check for use flag
+	(upmf_command_destroy): struct member use gets freed
+	* src/command.h: Added struct member xstring_t use
+	* src/dependency.c (upmf_dep_new): Removed check for use flag
+	(upmf_dep_destroy): struct member use gets freed
+	* src/dependency.h: Added struct member xstring_t use
+	* src/package.c (upmf_package_deplist_new): Recursive call is only
+	made when use flag is set or no use specified for the dependency
+	* src/upmf-config.c (upmf_config_init): upmf_config.uses is
+	now initialized with function upmf_list_init_from_doc
+	* src/use.c: New function upmf_use_isset
+
+2012-07-13  Aljosha Papsch  <papsch.al@googlemail.com>
+
+	* src/package.h: Changed upmf_package_tree_new to
+	upmf_package_deplist_new
+	* src/Makefile.am: Added jobs.c and jobs.h to upmf_SOURCES
+	* src/jobs.c: New file
+	* src/jobs.h: New file
+	* src/upmf.c (main): Moved instructions from update, upgrade
+	and installation blocks to functions in jobs.c
+
+2012-07-12  Aljosha Papsch  <papsch.al@googlemail.com>
+
+	* data/ktorrent.xml: Added sections to dependencies
+	* po/POTFILES.in: Added src/package.c
+	* src/package.c (upmf_package_new, upmf_package_destroy): Added
+	support for section attribute in XML files
+	(upmf_package_tree_new): Made function recursive, so a list is
+	filled with package instances of package and dependencies
+	New argument gl_list_t plist
+	Add package only to list if not a duplicate
+	(upmf_package_find_file): Changed error message when package file
+	was not found
+	Print look up message if verbose
+	(upmf_package_cmp): New function to compare two packages
+	* src/package.h: Added xstring_t section to struct UpmfPackage
+	Changed header for upmf_package_tree_new: Now returns void,
+	gl_list_t plist added to arguments
+	Added header for upmf_package_cmp
+	* src/upmf-config.h: Added extern struct arguments arguments
+	* src/upmf.c: New global variable struct arguments arguments
+	(main): arguments.quiet is now TRUE by default
+	Amended the installation block according to changed
+	upmf_package_tree_new function. Prints all packages pending
+	for installation.
+
+2012-07-08  Aljosha Papsch  <papsch.al@googlemail.com>
+
+	* src/upmf-config.h: New struct arguments
+	* src/upmf.c: Removed struct arguments
+	(main): Pass &arguments instead arguments.package_name to
+	upmf_package_tree_new
+	* src/package.c (upmf_package_tree_new): Information about package
+	is only printed when not qiet. Changed arguments
+	* src/package.h: Changed arguments for upmf_package_tree_new
+

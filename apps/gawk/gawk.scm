@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "gawk")
+  (section      . "apps")
+  (description  . "Programs for manipulating text files")
+  (options      . "")
+  (releases     . (("4.0.2" . "http://ftp.gnu.org/gnu/gawk/gawk-4.0.2.tar.xz")))
+  (install-info . #t))

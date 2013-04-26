@@ -1,0 +1,8 @@
+'((type . draft)
+  (mode . autotools)
+  (name . "e2fsprogs")
+  (section . "apps")
+  (description . "Utilities for handling the ext2 file system. It also supports the ext3 and ext4 journaling file systems.")
+  (options . "--enable-elf-shlibs --disable-libblkid --disable-libuuid --disable-fsck")
+  (releases . (("1.42.7" . "http://prdownloads.sourceforge.net/e2fsprogs/e2fsprogs-1.42.7.tar.gz")))
+  (install-info . #t))

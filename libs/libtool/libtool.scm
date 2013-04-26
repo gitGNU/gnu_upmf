@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "libtool")
+  (section      . "libs")
+  (description  . "The GNU generic library support script")
+  (options      . "")
+  (releases     . (("2.4.2" . "http://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz")))
+  (install-info . #t))

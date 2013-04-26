@@ -1,0 +1,2 @@
+'("devel/autoconf"
+  "devel/automake")

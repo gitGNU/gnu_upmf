@@ -1,0 +1,7 @@
+'((type . draft)
+  (mode . autotools)
+  (name . "yapet")
+  (section . "crypt")
+  (description . "Password manager for the command line")
+  (options . "--enable-pwgen")
+  (releases . (("0.8-pre2" . "http://www.guengel.ch/myapps/yapet/downloads/yapet-0.8pre2.tar.bz2"))))

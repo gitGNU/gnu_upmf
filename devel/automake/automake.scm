@@ -1,0 +1,10 @@
+'((type . draft)
+  (mode . autotools)
+  (name . "automake")
+  (section . "devel")
+  (description . "Automake is a tool for automatically generating `Makefile.in' \
+files compliant with the GNU Coding Standards.")
+  (options . "")
+  (releases . (("1.31.1" . "http://ftp.gnu.org/gnu/automake/automake-1.31.1.tar.xz")))
+  (patches . ((#f)))
+  (install-info . #t))

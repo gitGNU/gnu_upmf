@@ -1,0 +1,7 @@
+'((type . draft)
+  (mode . autotools)
+  (name . "pkg-config")
+  (section . "apps")
+  (description . "A tool for passing the include path and/or library paths to build tools during the configure and make file execution")
+  (options . "--with-internal-glib --disable-host-tool")
+  (releases . (("0.28" . "http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz"))))

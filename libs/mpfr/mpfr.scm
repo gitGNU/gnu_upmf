@@ -1,0 +1,8 @@
+'((type . draft)
+  (mode . autotools)
+  (name . "mpfr")
+  (section . "libs")
+  (description . "Functions for multiple precision math")
+  (options . "--enable-thread-safe")
+  (releases . (("3.1.1" . "http://www.mpfr.org/mpfr-3.1.1/mpfr-3.1.1.tar.xz")))
+  (install-info . #t))

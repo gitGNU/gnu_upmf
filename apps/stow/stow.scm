@@ -1,0 +1,8 @@
+'((type . draft)
+  (mode . autotools)
+  (name . "stow")
+  (section . "apps")
+  (description . "A symlink farm manager")
+  (options . "")
+  (releases . (("2.2.0" . "ftp://ftp.gnu.org/gnu/stow/stow-2.2.0.tar.bz2")))
+  (install-info . #t))

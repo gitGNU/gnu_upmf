@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "gdbm")
+  (section      . "libs")
+  (description  . "The GNU Database Manager")
+  (options      . "--enable-libgdbm-compat")
+  (releases     . (("1.10" . "http://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz")))
+  (install-info . #t))

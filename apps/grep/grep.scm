@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "grep")
+  (section      . "apps")
+  (description  . "Programs for searching through files")
+  (options      . "")
+  (releases     . (("2.14" . "http://ftp.gnu.org/gnu/grep/grep-2.14.tar.xz")))
+  (install-info . #t))

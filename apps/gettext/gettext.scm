@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "gettext")
+  (section      . "apps")
+  (description  . "Utilities for internationalization and localization")
+  (options      . "")
+  (releases     . (("0.18.2" . "http://ftp.gnu.org/gnu/gettext/gettext-0.18.2.tar.gz")))
+  (install-info . #t))

@@ -1,0 +1,7 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "gzip")
+  (section      . "libs")
+  (description  . "Programs for compressing and decompressing files")
+  (options      . "")
+  (releases     . (("1.5" . "http://ftp.gnu.org/gnu/gzip/gzip-1.5.tar.xz"))))

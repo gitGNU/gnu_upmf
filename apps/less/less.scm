@@ -1,0 +1,7 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "less")
+  (section      . "apps")
+  (description  . "A text file viewer")
+  (options      . "")
+  (releases     . (("451" . "http://www.greenwoodsoftware.com/less/less-451.tar.gz"))))

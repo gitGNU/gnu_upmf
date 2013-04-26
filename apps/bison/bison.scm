@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "bison")
+  (section      . "apps")
+  (description  . "A parser generator")
+  (options      . "")
+  (releases     . (("2.7.1" . "http://ftp.gnu.org/gnu/bison/bison-2.7.tar.xz")))
+  (install-info . #t))

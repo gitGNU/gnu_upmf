@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "diffutils")
+  (section      . "apps")
+  (description  . "Programs that show the differences between files or directories")
+  (options      . "")
+  (releases     . (("3.3" . "http://ftp.gnu.org/gnu/diffutils/diffutils-3.2.tar.gz")))
+  (install-info . #t))

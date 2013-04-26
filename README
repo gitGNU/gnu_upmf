@@ -1,0 +1,12 @@
+These are package files for Upmf, a package manager written in Scheme:
+
+http://nongnu.org/upmf/
+
+Before you can use the package files, you need to download and install
+Upmf.  This is covered in its own documents and is not described here.
+What is described here is how to install the package files, in a file
+called INSTALL.
+
+The package files, if they are longer than 10 lines, are licensed under
+the GNU General Public License, either version 3 or (at your option)
+any later version.

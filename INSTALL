@@ -1,0 +1,12 @@
+The package files need be integrated in Upmf's package tree. A tree might
+look like this:
+
+./builds  --> Where the build process is done
+./dest    --> Where packages get installed into
+./dist    --> Where archive files are saved
+./files   --> Where the package files are stored
+
+The last directory is where you want to save the package files.  Either
+copy the files from this directory or better, do a git clone.  The latter
+makes it easy to keep up to date with the progress made upstream and is
+recommended.

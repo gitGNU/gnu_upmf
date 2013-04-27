@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "texinfo")
+  (section      . "devel")
+  (description  . "Programs for reading, writing, and converting info pages")
+  (options      . "")
+  (releases     . (("5.1" . "http://ftp.gnu.org/gnu/texinfo/texinfo-5.1.tar.gz")))
+  (install-info . #t))

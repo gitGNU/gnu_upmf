@@ -4,5 +4,5 @@
   (section . "apps")
   (description . "The GNU Ubiquitous Intelligent Language for Extensions")
   (options . "--without-threads")
-  (releases . (("2.0.7" . "ftp://ftp.gnu.org/pub/gnu/guile/guile-2.0.7.tar.gz")))
+  (releases . (("2.0.9" . "ftp://ftp.gnu.org/pub/gnu/guile/guile-2.0.9.tar.gz")))
   (install-info . #t))

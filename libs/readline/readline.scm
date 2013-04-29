@@ -9,5 +9,5 @@
   ;; Don't move old libraries to <libraryname>.old. This causes linking bugs sometimes.
   (pre-hook     . ("sed -i '/MV.*old/d' Makefile.in"
 		   "sed -i '/{OLDSUFF}/c:' support/shlib-install"))
-  (patches      . ((name . "readline-6.2-fixes-1.patch")
+  (patches      . ((name . "readline-6.2-fixes-1")
 		   (for-version . ("6.2")))))

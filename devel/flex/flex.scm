@@ -1,0 +1,12 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "flex")
+  (section      . "devel")
+  (description  . "A utility for generating programs that recognize patterns in text")
+  (options      . "")
+  (releases     . (("2.5.37" . "http://prdownloads.sourceforge.net/flex/flex-2.5.37.tar.bz2")))
+  (install-info . #t)
+  ;; Some packages link with the lex library, so create a symlink.
+  (post-hook    . ("ln -sv libfl.a usr/lib/libl.a"))
+  (patches      . ((name . "flex-2.5.37-bison-2.6.1-1")
+		   (for-version . ("2.5.37")))))

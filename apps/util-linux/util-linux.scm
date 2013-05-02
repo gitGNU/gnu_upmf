@@ -1,0 +1,7 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "util-linux")
+  (section      . "devel")
+  (description  . "Miscellaneous utility programs")
+  (options      . "--disable-su --disable-sulogin --disable-login")
+  (releases     . (("2.23" . "http://www.kernel.org/pub/linux/utils/util-linux/v2.23/util-linux-2.23.tar.xz"))))

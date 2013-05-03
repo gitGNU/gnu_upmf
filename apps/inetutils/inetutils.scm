@@ -1,0 +1,10 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "inetutils")
+  (section      . "apps")
+  (description  . "Programs for basic networking")
+  (options      . "--localstatedir=/var --disable-ifconfig --disable-logger \\
+                   --disable-syslogd --disable-whois --disable-servers")
+  (releases     . (("1.9.1" . "http://ftp.gnu.org/gnu/inetutils/inetutils-1.9.1.tar.gz")))
+  (install-info . #t)
+  (pre-hook     . ("sed -i -e '/gets is a/d' lib/stdio.in.h")))

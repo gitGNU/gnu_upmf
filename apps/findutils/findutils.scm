@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "findutils")
+  (section      . "apps")
+  (description  . "Programs to find files")
+  (options      . "--localstatedir=/var/lib/locate")
+  (releases     . (("4.4.2" . "http://ftp.gnu.org/gnu/findutils/findutils-4.4.2.tar.gz")))
+  (install-info . #t))

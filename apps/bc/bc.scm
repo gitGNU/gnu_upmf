@@ -1,0 +1,8 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "bc")
+  (section      . "apps")
+  (description  . "An arbitrary precision numeric processing language")
+  (options      . "--with-readline")
+  (releases     . (("1.06.95" . "ftp://alpha.gnu.org/gnu/bc/bc-1.06.95.tar.bz2")))
+  (install-info . #t))

@@ -1,0 +1,10 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "grub")
+  (section      . "apps")
+  (description  . "The GRand Unified Bootloader")
+  (options      . "--sysconfdir=/etc --disable-grub-emu-usb \\
+                   --disable-efiemu --disable-werror")
+  (releases     . (("2.00" . "http://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz")))
+  (install-info . #t)
+  (pre-hook     . ("sed -i -e '/gets is a/d' grub-core/gnulib/stdio.in.h")))

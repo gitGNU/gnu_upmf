@@ -1,0 +1,7 @@
+'((type         . draft)
+  (mode         . autotools)
+  (name         . "xz")
+  (section      . "apps")
+  (description  . "Programs for compressing and decompressing files using lzma and xz formats.")
+  (options      . "")
+  (releases     . (("5.0.4" . "http://tukaani.org/xz/xz-5.0.4.tar.xz"))))

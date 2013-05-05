@@ -4,4 +4,4 @@
   (section      . "apps")
   (description  . "Programs for monitoring processes")
   (options      . "--disable-static --disable-skill --disable-kill")
-  (releases     . (("3.3.7" . "http://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.7.tar.xz")))
+  (releases     . (("3.3.7" . "http://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.7.tar.xz"))))
